@@ -1,0 +1,27 @@
+.Module-Image {
+    display: flex;
+    background-color: #D0EAB9;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.Large-image {
+
+    flex-basis: 70%;
+}
+
+.Large-image img {
+    height: 286px;
+}
+
+.container-text {
+    flex-basis: 30%;
+    max-width: 90%;
+}
+
+.text-module {
+    max-width: 175px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0px;
+}

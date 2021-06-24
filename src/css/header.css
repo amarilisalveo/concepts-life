@@ -1,0 +1,177 @@
+@import '/images/logo-evacc.png';
+
+.logo {
+	background-image: url("/images/logo-evacc.png");
+	height: 70px;
+	margin-bottom: 10px;
+
+}
+
+#logo-header {
+	margin-right: 10px;
+}
+
+/*	Header	*/
+
+header {
+	/* Enable flex mode. */
+	display: flex;
+	/* Spread out the elements inside the header. */
+	justify-content: space-between;
+	/* Align items vertically in the center. */
+	align-items: center;
+
+	padding: 20px 40px;
+	color: #7A837F;
+	background: #F2F8F7;
+
+
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+
+}
+
+.header-left h4 {
+	font-family: Open Sans, cursive;
+	font-weight: bold;
+
+}
+
+.header-left span {
+	color: #EAD314;
+
+}
+
+
+.header-center ul {
+	list-style: none;
+
+}
+
+.header-center ul li {
+	display: inline-block;
+	margin: 0 15px;
+
+}
+
+a {
+	color: #8A948F !important;
+	padding: 0 5px;
+	text-decoration: none;
+	font-family: Open Sans, cursive;
+}
+
+.header-center ul li a {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+
+}
+
+.header-right button {
+	color: #fff;
+	cursor: pointer;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	border: 2px solid #FFFFFF;
+	border-radius: 4px;
+	background-color: transparent;
+	visibility: hidden;
+}
+
+.header-right button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*	Main content	*/
+
+.main-content {
+	padding: 60px 100px;
+	background-color: #fff;
+	line-height: 1.5;
+	color: #444;
+}
+
+.main-content h2 {
+	margin-bottom: 38px;
+}
+
+.main-content p {
+	margin: 30px 0;
+}
+
+
+.main-content .placeholder {
+	margin: 40px 0;
+	height: 380px;
+	background-color: #e3e3e3;
+}
+
+
+/*	Media queries	*/
+
+@media (max-width: 1200px) {
+	header {
+		padding: 20px 45px;
+	}
+
+
+}
+
+@media (max-width: 1000px) {
+	header {
+		/* Reverse the axis of the header, making it vertical. */
+		flex-direction: column;
+		/* Align items to the begining (the left) of the header. */
+		align-items: flex-start;
+	}
+
+	header>div {
+		margin: 12px 0;
+	}
+
+	.header-center ul li {
+		margin: 0 15px 0 0;
+	}
+
+}
+
+@media (max-width: 900px) {
+
+
+	header {
+
+		align-items: center;
+	}
+
+
+}
+
+@media (max-width: 600px) {
+
+
+	.header-left {
+		margin-top: 0;
+	}
+
+	header {
+		padding: 30px;
+		align-items: center;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+}
+
+
+#logo-header .site-name {
+
+	font-weight: 700;
+	font-size: 1.2em;
+}

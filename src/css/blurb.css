@@ -1,0 +1,27 @@
+.Blurb {
+    display: flex;
+    background-color: #DBF3E9;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.Blurb-image {
+    background: url("/images/moule-image.jpg");
+    padding: 125px 0px 125px 0px;
+    flex-basis: 70%;
+}
+
+
+.container-text-blurb {
+    display: flex;
+    flex-basis: 30%;
+    max-width: 90%;
+    text-align: center;
+}
+
+.text-module-blurb {
+
+    margin: 0 auto;
+    padding: 20px 0 20px 0px;
+}
