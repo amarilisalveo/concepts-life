@@ -14,11 +14,11 @@ const Footer = props => {
            <p className="footer-links">
             <a href="/" className="link-1">trends</a>
             
-            <a href="/Especies">collections</a>
+            <a href="/Collections">collections</a>
         
-            <a href="/Cuarentena">tips guides</a>
+            <a href="/tips guides">tips guides</a>
         
-            <a href="/Fallecidas">find a store</a>
+            <a href="/find a store">find a store</a>
                   
         </p>
      </div>
