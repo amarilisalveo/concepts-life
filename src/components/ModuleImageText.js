@@ -1,5 +1,6 @@
 import React from 'react';
 
+import header from '../css/module_image_text.css';
 import background from "../images/moule-image.jpg";
 
 
