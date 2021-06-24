@@ -228,4 +228,8 @@
         padding: 40px 25px 40px 0px;
         
     }
+    .footer-distributed .footer-links {
+    
+        text-align: center;
+    }
 }
