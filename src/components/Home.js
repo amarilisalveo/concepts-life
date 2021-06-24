@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import '../css/carousel.css';
 class Home extends React.Component {
 
   render() {
