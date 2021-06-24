@@ -11,7 +11,7 @@ class Header extends React.Component {
       <header >
  
        <div className="header-left">
-        <a id="logo-header" href="#">
+        <a id="logo-header" >
 			 <img className="logo"src={require('../images/logo.jpg')}/> 
 
 		</a>   
