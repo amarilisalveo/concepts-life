@@ -11,7 +11,7 @@ import React from 'react';
           
           </div>
           <div>
-           <p> Found in Over</p>
+           <p> COLLECTIONS</p>
            <p> XXX</p>
           </div>
           

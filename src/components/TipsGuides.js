@@ -12,7 +12,7 @@ import React from 'react';
           
           </div>
           <div>
-           <p> Found in Over</p>
+           <p> TIPSGUIDES</p>
            <p> XXX</p>
           </div>
           

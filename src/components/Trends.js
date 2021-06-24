@@ -10,7 +10,7 @@ const Trends = props => {
         
         </div>
         <div>
-         <p> Found in Over</p>
+         <p> TRENDS</p>
          <p> XXX</p>
         </div>
         
