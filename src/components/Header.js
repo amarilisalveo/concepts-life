@@ -12,7 +12,7 @@ class Header extends React.Component {
  
        <div className="header-left">
         <a id="logo-header" >
-			 <img className="logo"src={require('../images/logo.jpg')}/> 
+			 <img className="logo" src={require('../images/logo.jpg')} alt="logo-concepts"/> 
 
 		</a>   
    
