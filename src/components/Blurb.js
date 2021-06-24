@@ -1,5 +1,5 @@
 import React from 'react';
-import header from '../css/blurb.css';
+
 import background from "../images/Hope.jpg";
 
 
