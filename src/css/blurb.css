@@ -25,3 +25,10 @@
     margin: 0 auto;
     padding: 20px 0 20px 0px;
 }
+
+@media (max-width: 600px) {
+.Blurb{
+    flex-direction: column;
+}
+
+}

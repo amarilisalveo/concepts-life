@@ -17,7 +17,7 @@
 
 .container-text {
     flex-basis: 30%;
-    max-width: 90%;
+
 }
 
 .text-module {
@@ -31,8 +31,7 @@
 
 
     .Module-Image{
-        flex-direction: column;
-        background-color: red;
+        flex-direction: column
     }
     .Large-image{
         padding: 80px 0px 80px 0px;
