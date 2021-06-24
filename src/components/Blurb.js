@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import header from '../css/blurb.css';
+
 import background from "../images/Hope.jpg";
 
 

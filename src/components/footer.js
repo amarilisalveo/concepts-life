@@ -1,7 +1,6 @@
 
 import React from "react";
 
-import footer from '../css/footer.css';
 // function component
 const Footer = props => {
   return (
@@ -34,7 +33,7 @@ const Footer = props => {
             <i className="fa fa-phone"></i>
             <p> fax:+(507)314-7709 </p>
     <p><a className="mail-footer" href="mailto:support@company.com"> info@tiendaconceptlife.com</a></p>
-    <img className="logo-footer" src={require('../images/logo-footer.jpg')}/>
+    <img className="logo-footer" src={require('../images/logo-footer.jpg')} alt="logo-footer"/>
 
         <p className="footer-company-name"> All rights reserved 2017 Tienda Concepts Life</p>
     </div>

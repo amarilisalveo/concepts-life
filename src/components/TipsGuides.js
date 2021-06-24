@@ -1,7 +1,5 @@
 import React from 'react';
-import footer from '../css/footer.css';
-import Header from "./Header";
-import Footer from './footer';
+
 
 
   const TipsGuides = props => {

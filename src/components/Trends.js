@@ -1,8 +1,5 @@
 import React from 'react';
-import app from '../css/app.css';
-import footer from '../css/footer.css';
-import Header from "./Header";
-import Footer from './footer';
+
 const Trends = props => {
 
     

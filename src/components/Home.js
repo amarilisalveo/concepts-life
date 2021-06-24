@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Gallery from 'react-grid-gallery';
-import carousel from '../css/carousel.css';
+
 class Home extends React.Component {
 
   render() {

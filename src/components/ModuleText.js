@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import header from '../css/module_text.css';
 
 
 
